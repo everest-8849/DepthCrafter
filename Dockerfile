@@ -6,7 +6,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 # Update package list and install dependencies
 RUN apt update && \
-    apt install -y python3.10-venv libgl1-mesa-glx && \
+    apt install -y python3.10-venv libgl1-mesa-glx ffmpeg && \
     rm -rf /var/lib/apt/lists/*
 
 # Create and activate a Python virtual environment
