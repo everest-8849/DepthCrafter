@@ -133,7 +133,7 @@ class DepthCrafterDemo:
 
 def main(
     video_path: str,
-    save_folder: str = "./demo_output",
+    save_folder: str = "./output",
     unet_path: str = "tencent/DepthCrafter",
     pre_train_path: str = "stabilityai/stable-video-diffusion-img2vid-xt",
     process_length: int = -1,
